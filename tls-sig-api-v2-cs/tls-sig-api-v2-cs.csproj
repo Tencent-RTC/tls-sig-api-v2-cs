@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;netstandard2.0;
+        net40;net45;net451;net452;net46;net461;
+        netcoreapp2.0;netcoreapp2.1;netcoreapp2.2;
+    </TargetFrameworks>
+    <RootNamespace>tencentcloud</RootNamespace>
+    <PackageId>tls-sig-api-v2</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>weijunyi</Authors>
+    <Company>tencentcloud</Company>
+    <Description>tls-sig-api-v2 Applicable to Tencent Cloud TRTC and CHAT services to generate user account signatures. Previous asymmetric keys cannot be used with this version of the API. If you need to use it, please check https://github.com/tencentcloud/tls-sig-api-cs。</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="zlib.net-mutliplatform" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
